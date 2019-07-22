@@ -1,6 +1,6 @@
 {
   "name": "bitcore-p2p-zeroclassic",
-  "version": "8.1.1",
+  "version": "8.3.4",
   "description": "Interface to the ZeroClassic P2P network for bitcore",
   "main": "index.js",
   "scripts": {
@@ -17,17 +17,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/miodragpop/bitcore-p2p-zeroclassic.git"
+    "url": "https://github.com/miodragpop/bitcore-p2p-zeroclassic.git#nextgen"
   },
   "dependencies": {
-    "bcoin": "1.0.0-beta.12",
-    "bitcore-lib-zeroclassic": "miodragpop/bitcore-lib-zeroclassic",
+    "bcoin": "^1.0.2",
+    "bitcore-lib-zeroclassic": "miodragpop/bitcore-lib-zeroclassic#nextgen",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "bitcore-build": "^8.1.1",
+    "bitcore-build-zeroclassic": "miodragpop/bitcore-build-zeroclassic#nextgen",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^4.0.0",
